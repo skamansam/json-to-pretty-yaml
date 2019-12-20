@@ -52,6 +52,9 @@
 
                 return output;
             },
+            "date": function(x) {
+                return JSON.stringify(x);
+            },
             "object": function(x, inArray, rootNode) {
                 var output = '';
 
